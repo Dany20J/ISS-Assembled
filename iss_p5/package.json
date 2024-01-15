@@ -1,0 +1,53 @@
+{
+  "name": "iss_p5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "PORT=5000 node --trace-deprecation ./dist/main.js",
+    "dev": "PORT=5000 nodemon ./dist/main.js",
+    "debug": "PORT=5000 nodemon --inspect ./dist/main.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.8.0",
+    "@types/bcrypt": "^5.0.0",
+    "@types/crypto-js": "^4.1.1",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/mysql": "^2.15.21",
+    "@types/node-fetch": "^2.6.2",
+    "@types/node-rsa": "^1.1.1",
+    "@types/nodemailer": "^6.4.5",
+    "@types/util.promisify": "^1.0.4",
+    "@types/uuid": "^8.3.4",
+    "@types/ws": "^8.5.3",
+    "crypto-js": "^4.1.1",
+    "encrypt-rsa": "^2.1.2",
+    "express": "^4.18.1",
+    "jsencrypt": "^3.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "keypair": "^1.0.4",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.6.7",
+    "node-rsa": "^1.1.1",
+    "nodemailer": "^6.7.8",
+    "promisfy": "^1.2.0",
+    "typed-promisify": "^0.4.0",
+    "typescript-collections": "^1.3.3",
+    "util.promisify": "^1.1.1",
+    "uuid": "^8.3.2",
+    "ws": "^8.5.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.45",
+    "nodemon": "^2.0.16",
+    "prisma": "^4.8.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,78 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Chat {
+  chatId   Int       @id @default(autoincrement())
+  userId_1 Int
+  userId_2 Int
+  User_1   User      @relation("Chat_userId_1ToUser", fields: [userId_1], references: [userId], onDelete: NoAction, onUpdate: NoAction, map: "userId_1_FK")
+  User_2   User      @relation("Chat_userId_2ToUser", fields: [userId_2], references: [userId], onDelete: NoAction, onUpdate: NoAction, map: "userid_2_FK")
+  Message  Message[]
+
+  @@index([userId_2], map: "userid_2_FK_idx")
+  @@index([userId_1], map: "userId_1_FK_idx")
+}
+
+model Message {
+  messageId    Int      @id @default(autoincrement())
+  chatId       Int
+  senderUserId Int
+  message      String   @db.MediumText
+  time         DateTime @default(now()) @db.DateTime(0)
+  Chat         Chat     @relation(fields: [chatId], references: [chatId], onDelete: NoAction, onUpdate: NoAction, map: "chatId_FK")
+  User         User     @relation(fields: [senderUserId], references: [userId], onDelete: NoAction, onUpdate: NoAction, map: "senderUserId_FK")
+
+  @@index([chatId], map: "chatId_FK_idx")
+  @@index([senderUserId], map: "sendUserId_FK_idx")
+  @@index([senderUserId], map: "senderUserId_FK_idx")
+}
+
+model User {
+  userId                   Int               @id @default(autoincrement())
+  phoneNumber              String            @unique @db.VarChar(45)
+  hashedPassword           String            @db.VarChar(200)
+  Chat_Chat_userId_1ToUser Chat[]            @relation("Chat_userId_1ToUser")
+  Chat_Chat_userId_2ToUser Chat[]            @relation("Chat_userId_2ToUser")
+  Message                  Message[]
+  UserCertificate          UserCertificate[]
+}
+
+model UserComm {
+  userCommId    Int    @id @default(autoincrement())
+  userId        Int
+  userComm      String @db.MediumText
+  userSignature String @db.MediumText
+}
+
+model ServerKeyPair {
+  serverKeyPairId  Int    @id
+  serverPublicKey  String @db.MediumText
+  serverPrivateKey String @db.MediumText
+}
+
+model CAPublicKey {
+  CAPublicKeyId Int    @id
+  publicKey     String @db.MediumText
+}
+
+model UserCertificate {
+  userPublicKeyId      Int    @id @default(autoincrement())
+  certificateInfo      String @db.MediumText
+  userId               Int
+  certificateSignature String @db.MediumText
+  User                 User   @relation(fields: [userId], references: [userId], onDelete: NoAction, onUpdate: NoAction, map: "userId_FK")
+
+  @@index([userId], map: "userId_FK_idx")
+}
+
+model ServerCertificate {
+  serverCertificateId  Int    @id
+  certificateInfo      String @db.MediumText
+  certificateSignature String @db.MediumText
+}

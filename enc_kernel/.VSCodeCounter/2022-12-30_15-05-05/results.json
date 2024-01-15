@@ -1,0 +1,188 @@
+{
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/queue.ts": {
+        "language": "TypeScript",
+        "code": 22,
+        "comment": 0,
+        "blank": 3
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/json_validator.ts": {
+        "language": "TypeScript",
+        "code": 17,
+        "comment": 0,
+        "blank": 3
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/account/account_repository.ts": {
+        "language": "TypeScript",
+        "code": 21,
+        "comment": 0,
+        "blank": 7
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/account/account.ts": {
+        "language": "TypeScript",
+        "code": 42,
+        "comment": 1,
+        "blank": 15
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/shared_functions/shared_functions.ts": {
+        "language": "TypeScript",
+        "code": 46,
+        "comment": 0,
+        "blank": 7
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/websocket_manager/authenticator.ts": {
+        "language": "TypeScript",
+        "code": 27,
+        "comment": 0,
+        "blank": 4
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/websocket_manager/websocket_info_manager.ts": {
+        "language": "TypeScript",
+        "code": 58,
+        "comment": 5,
+        "blank": 14
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/shared_types/message.ts": {
+        "language": "TypeScript",
+        "code": 6,
+        "comment": 0,
+        "blank": 2
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/shared_types/authentication_info.ts": {
+        "language": "TypeScript",
+        "code": 3,
+        "comment": 0,
+        "blank": 2
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/shared_types/user_sign_up_data.ts": {
+        "language": "TypeScript",
+        "code": 5,
+        "comment": 0,
+        "blank": 4
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/shared_types/reply.ts": {
+        "language": "TypeScript",
+        "code": 4,
+        "comment": 0,
+        "blank": 1
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/chat/chat.ts": {
+        "language": "TypeScript",
+        "code": 155,
+        "comment": 0,
+        "blank": 16
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/server_controller.ts": {
+        "language": "TypeScript",
+        "code": 92,
+        "comment": 0,
+        "blank": 43
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/shared_types/chat_history.ts": {
+        "language": "TypeScript",
+        "code": 15,
+        "comment": 0,
+        "blank": 3
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/main.ts": {
+        "language": "TypeScript",
+        "code": 3,
+        "comment": 0,
+        "blank": 4
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/shared_types/chat_messages_history.ts": {
+        "language": "TypeScript",
+        "code": 12,
+        "comment": 0,
+        "blank": 3
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/websocket/msg_model.ts": {
+        "language": "TypeScript",
+        "code": 4,
+        "comment": 0,
+        "blank": 1
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/websocket/msg_buffer.ts": {
+        "language": "TypeScript",
+        "code": 13,
+        "comment": 0,
+        "blank": 6
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/websocket/consumed_msgs.ts": {
+        "language": "TypeScript",
+        "code": 20,
+        "comment": 0,
+        "blank": 2
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/handler/message_handler.ts": {
+        "language": "TypeScript",
+        "code": 2,
+        "comment": 0,
+        "blank": 1
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/database_connections.ts": {
+        "language": "TypeScript",
+        "code": 30,
+        "comment": 0,
+        "blank": 4
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/websocket/websocket_connection.ts": {
+        "language": "TypeScript",
+        "code": 81,
+        "comment": 1,
+        "blank": 12
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/chat/chat_repository.ts": {
+        "language": "TypeScript",
+        "code": 136,
+        "comment": 0,
+        "blank": 9
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/handler/message_destination_handler.ts": {
+        "language": "TypeScript",
+        "code": 11,
+        "comment": 0,
+        "blank": 3
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/handler/handler.ts": {
+        "language": "TypeScript",
+        "code": 3,
+        "comment": 0,
+        "blank": 0
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/handler/authentication_handler.ts": {
+        "language": "TypeScript",
+        "code": 26,
+        "comment": 0,
+        "blank": 6
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/handler/sockets_state_handler.ts": {
+        "language": "TypeScript",
+        "code": 21,
+        "comment": 0,
+        "blank": 4
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/handler/account_services_handler.ts": {
+        "language": "TypeScript",
+        "code": 80,
+        "comment": 0,
+        "blank": 7
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/handler/error_data.ts": {
+        "language": "TypeScript",
+        "code": 5,
+        "comment": 0,
+        "blank": 0
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/handler/event_handler.ts": {
+        "language": "TypeScript",
+        "code": 15,
+        "comment": 0,
+        "blank": 5
+    },
+    "file:///Users/dany88gwabry/Documents/nodeJS/iss/src/handler/chat_services_handler.ts": {
+        "language": "TypeScript",
+        "code": 174,
+        "comment": 0,
+        "blank": 4
+    }
+}

@@ -1,0 +1,62 @@
+Date : 2022-12-30 15:05:05
+Directory : /Users/dany88gwabry/Documents/nodeJS/iss/src
+Total : 31 files,  1149 codes, 7 comments, 195 blanks, all 1351 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| TypeScript |         31 |      1,149 |          7 |        195 |      1,351 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                     | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                        |         31 |      1,149 |          7 |        195 |      1,351 |
+| account                                                                                  |          2 |         63 |          1 |         22 |         86 |
+| chat                                                                                     |          2 |        291 |          0 |         25 |        316 |
+| handler                                                                                  |          9 |        337 |          0 |         30 |        367 |
+| shared_functions                                                                         |          1 |         46 |          0 |          7 |         53 |
+| shared_types                                                                             |          6 |         45 |          0 |         15 |         60 |
+| websocket                                                                                |          4 |        118 |          1 |         21 |        140 |
+| websocket_manager                                                                        |          2 |         85 |          5 |         18 |        108 |
++------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                 | language   | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/account/account.ts                          | TypeScript |         42 |          1 |         15 |         58 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/account/account_repository.ts               | TypeScript |         21 |          0 |          7 |         28 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/chat/chat.ts                                | TypeScript |        155 |          0 |         16 |        171 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/chat/chat_repository.ts                     | TypeScript |        136 |          0 |          9 |        145 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/database_connections.ts                     | TypeScript |         30 |          0 |          4 |         34 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/handler/account_services_handler.ts         | TypeScript |         80 |          0 |          7 |         87 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/handler/authentication_handler.ts           | TypeScript |         26 |          0 |          6 |         32 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/handler/chat_services_handler.ts            | TypeScript |        174 |          0 |          4 |        178 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/handler/error_data.ts                       | TypeScript |          5 |          0 |          0 |          5 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/handler/event_handler.ts                    | TypeScript |         15 |          0 |          5 |         20 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/handler/handler.ts                          | TypeScript |          3 |          0 |          0 |          3 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/handler/message_destination_handler.ts      | TypeScript |         11 |          0 |          3 |         14 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/handler/message_handler.ts                  | TypeScript |          2 |          0 |          1 |          3 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/handler/sockets_state_handler.ts            | TypeScript |         21 |          0 |          4 |         25 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/json_validator.ts                           | TypeScript |         17 |          0 |          3 |         20 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/main.ts                                     | TypeScript |          3 |          0 |          4 |          7 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/queue.ts                                    | TypeScript |         22 |          0 |          3 |         25 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/server_controller.ts                        | TypeScript |         92 |          0 |         43 |        135 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/shared_functions/shared_functions.ts        | TypeScript |         46 |          0 |          7 |         53 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/shared_types/authentication_info.ts         | TypeScript |          3 |          0 |          2 |          5 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/shared_types/chat_history.ts                | TypeScript |         15 |          0 |          3 |         18 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/shared_types/chat_messages_history.ts       | TypeScript |         12 |          0 |          3 |         15 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/shared_types/message.ts                     | TypeScript |          6 |          0 |          2 |          8 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/shared_types/reply.ts                       | TypeScript |          4 |          0 |          1 |          5 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/shared_types/user_sign_up_data.ts           | TypeScript |          5 |          0 |          4 |          9 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/websocket/consumed_msgs.ts                  | TypeScript |         20 |          0 |          2 |         22 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/websocket/msg_buffer.ts                     | TypeScript |         13 |          0 |          6 |         19 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/websocket/msg_model.ts                      | TypeScript |          4 |          0 |          1 |          5 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/websocket/websocket_connection.ts           | TypeScript |         81 |          1 |         12 |         94 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/websocket_manager/authenticator.ts          | TypeScript |         27 |          0 |          4 |         31 |
+| /Users/dany88gwabry/Documents/nodeJS/iss/src/websocket_manager/websocket_info_manager.ts | TypeScript |         58 |          5 |         14 |         77 |
+| Total                                                                                    |            |      1,149 |          7 |        195 |      1,351 |
++------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
